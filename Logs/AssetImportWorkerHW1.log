@@ -1,0 +1,455 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'fr' Physical Memory: 28330 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau" at "2026-10-07T14:22:47.6378049Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-07T14:22:47Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 32188, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              fa1fca0f84044dad9755b88871e38d6d
+  Correlation Id:          4bd187f94226296210d9b5bca95a37a5
+  External correlation Id: 7758419715609964419
+  Machine Id:              38a2xp5jTUHMWTaAZnWFeybQ1e8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-oliau" (connect: 0.00s, validation: 0.01s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau-notifications" at "2026-10-07T14:22:47.6958035Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW1
+-projectPath
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/PyroForge-Multiplayer
+-logFile
+Logs/AssetImportWorkerHW1.log
+-srvPort
+57539
+-parentPid
+14084
+-analyticsCloudUserId
+3574297690481
+-analyticsCloudProjectId
+b8243a85-20db-47c4-9bdd-be03a1ea8f1c
+-analyticsLocalProjectId
+ebafb5eec17d1b741baed64eca372ccf
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+8c1a9f4e1690790c866bd886746040db216e6665
+-cbmMachineId
+38a2xp5jTUHMWTaAZnWFeybQ1e8=
+-licensingIpc
+LicenseClient-oliau
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/PyroForge-Multiplayer
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/PyroForge-Multiplayer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [43700]  Target information:
+
+Player connection [43700]  * "[IP] 10.50.8.65 [Port] 0 [Flags] 2 [Guid] 2698174676 [EditorId] 2698174676 [Version] 1048832 [Id] WindowsEditor(7,OLI-SCHOOL-LAP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [43700] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [43700] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 3574297690481-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 34.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 2.74 ms.
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/PyroForge-Multiplayer/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon 780M Graphics (ID=0x1900)
+    Vendor:          ATI
+    VRAM:            14165 MB
+    App VRAM Budget: 17399 MB
+    Driver:          32.0.22024.19001
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.006635 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.541 seconds
+Domain Reload Profiling: 1277ms
+	BeginReloadAssembly (154ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (149ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (311ms)
+				TypeCache.ScanAssembly (295ms)
+	FinalizeReload (542ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (246ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 19.59 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 14.98 ms, found 11 plugins.
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+Asset Pipeline Refresh (id=1a1f2f2f8b7f4f648aaf807702bbbf8b): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+Asset Pipeline Refresh (id=26fb50f405a476a419e4484ebdce8def): Total: 0.000 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.746 seconds
+Domain Reload Profiling: 3190ms
+	BeginReloadAssembly (252ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (1039ms)
+		LoadAssemblies (509ms)
+		AnalyzeDomain (441ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (218ms)
+			BuildScriptInfoCaches (185ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1747ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (553ms)
+			AfterProcessingInitializeOnLoad (14ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 16.03 ms, found 11 plugins.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 9687 unused Assets / (10.8 MB). Loaded Objects now: 10738.
+Memory consumption went from 413.0 MB to 402.1 MB.
+Total: 29.893700 ms (FindLiveObjects: 1.733700 ms CreateObjectMapping: 4.182400 ms MarkObjects: 17.807600 ms  DeleteObjects: 6.167000 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 16.04 ms, found 11 plugins.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (3.0 MB). Loaded Objects now: 10738.
+Memory consumption went from 402.6 MB to 399.6 MB.
+Total: 17.836700 ms (FindLiveObjects: 0.641100 ms CreateObjectMapping: 1.216000 ms MarkObjects: 14.764900 ms  DeleteObjects: 1.212600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:32.3340144Z
+  Time since last request: 1716772.08701170003042 seconds.
+  importAddress: GUID: b76110ca6926ad54cb7e1785050e8da9 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_04.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b76110ca6926ad54cb7e1785050e8da9 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_04.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b76110ca6926ad54cb7e1785050e8da9' -> (Import Result ID: 'cbc7b6440bf616830f3f8e4a191107d7') in 0.126 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a704596f437db7e84a340cb98ff414db DependenciesID=d772a8299155eca676bf8ad1a7ec8a02 StaticDependenciesID=24a2418fe10dde903a62047939f86b04 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:53.6553307Z
+  Time since last request: 21.1806781 seconds.
+  importAddress: GUID: 7df1e18cc7ed2b04088dc94ee9fd931e - Path: Assets/VRMPAssets/Meshes/Dial.fbx - Importer: PreviewImporter
+Importing 'GUID: 7df1e18cc7ed2b04088dc94ee9fd931e - Path: Assets/VRMPAssets/Meshes/Dial.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7df1e18cc7ed2b04088dc94ee9fd931e' -> (Import Result ID: 'd844906d9ee412e4318fe8274e2de05a') in 0.503 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4b95840adaebb0567f32046558387e8 DependenciesID=1a052625ddf9a22caedb0fbd39573549 StaticDependenciesID=7785219c71f84e6c339a739426bd9ada 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:54.1762501Z
+  Time since last request: 0.0000611 seconds.
+  importAddress: GUID: c6997bfa3e8753c4aa70f5c45a0d3c4e - Path: Assets/Y Bot.fbx - Importer: PreviewImporter
+Importing 'GUID: c6997bfa3e8753c4aa70f5c45a0d3c4e - Path: Assets/Y Bot.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c6997bfa3e8753c4aa70f5c45a0d3c4e' -> (Import Result ID: '384df9f059fc903e8472f36bbca3d47b') in 0.108 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f73dc52fd6259840dc0a5ebf3c266106 DependenciesID=399147ea592f562ae033463d13a5244a StaticDependenciesID=1c0cc3b57dc9369011cf3dab22bc1eb5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:54.2984676Z
+  Time since last request: 0.0004411 seconds.
+  importAddress: GUID: 19fd09f1fd9347644a27778b73938d3b - Path: Assets/VRMPAssets/Materials/AnchorMaterials/Anchor Base.mat - Importer: PreviewImporter
+Importing 'GUID: 19fd09f1fd9347644a27778b73938d3b - Path: Assets/VRMPAssets/Materials/AnchorMaterials/Anchor Base.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 19fd09f1fd9347644a27778b73938d3b' -> (Import Result ID: 'd644cdd1c397d2eb7aac5e2c4e124863') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f98ba649e88e5bba57e1a1007a71606a DependenciesID=a8e077beb6309328bca35be1c178abfc StaticDependenciesID=1d9c1b71c20fb388e296bb755a03b480 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:54.343611Z
+  Time since last request: 0.0006359 seconds.
+  importAddress: GUID: 3456029f09fd04b3f938f19c543b7ed0 - Path: Assets/VRMPAssets/Meshes/EnvironmentMeshes/Locomotion/TeleportIndicatorVisual.fbx - Importer: PreviewImporter
+Importing 'GUID: 3456029f09fd04b3f938f19c543b7ed0 - Path: Assets/VRMPAssets/Meshes/EnvironmentMeshes/Locomotion/TeleportIndicatorVisual.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3456029f09fd04b3f938f19c543b7ed0' -> (Import Result ID: '794d71558af9051a6ba010d874e8ec6e') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9f2703053e15347cb78a3fa3b345357 DependenciesID=e7f1a5b3448357841fcd8e22526bf482 StaticDependenciesID=657e6d4298bfbb519ef0f27b98882601 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:24:09.7504767Z
+  Time since last request: 15.3593062 seconds.
+  importAddress: GUID: ea87620a7228b7e45bc96fc818f28fe8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ea87620a7228b7e45bc96fc818f28fe8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ea87620a7228b7e45bc96fc818f28fe8' -> (Import Result ID: '7b301f026b66b5501454e4060b9d8dd7') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=752a9ba4c618129e00aae9f38237975e DependenciesID=0c40c683bfadb1dba5d1003a7a427d02 StaticDependenciesID=c572b75c08e9253bfa6fa6ab17322e25 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:24:09.7866048Z
+  Time since last request: 0.0005339 seconds.
+  importAddress: GUID: 08d4d2cbfdbdc9c46a4245c0b581d3a4 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SmokeA1_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 08d4d2cbfdbdc9c46a4245c0b581d3a4 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SmokeA1_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 08d4d2cbfdbdc9c46a4245c0b581d3a4' -> (Import Result ID: '17c664b618e57fe63bf59fe37ac71e94') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22bc2ac765ea16af3d86e4ef629712ad DependenciesID=ee2afe7211d4215f39a00d43bec58222 StaticDependenciesID=00510604200762b7e7c29dbae749a241 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:24:11.2258142Z
+  Time since last request: 1.3956111 seconds.
+  importAddress: GUID: ea87620a7228b7e45bc96fc818f28fe8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ea87620a7228b7e45bc96fc818f28fe8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ea87620a7228b7e45bc96fc818f28fe8' -> (Import Result ID: 'dfd2fe89a8ae41485ac59612c8d6018e') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6517a5e45c25c967af1b3afa7d84c224 DependenciesID=bbb3de71f47808d35e34c830590ee755 StaticDependenciesID=24ce7bb60c2c37c0e23918c17fadb3b6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

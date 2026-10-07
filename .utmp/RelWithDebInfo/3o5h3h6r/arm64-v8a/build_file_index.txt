@@ -1,0 +1,2 @@
+C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\PyroForge-Multiplayer\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\PyroForge-Multiplayer\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

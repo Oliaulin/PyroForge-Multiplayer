@@ -1,0 +1,901 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'fr' Physical Memory: 28330 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau" at "2026-10-07T14:21:45.7210815Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-07T14:21:45Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 32188, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              868116cd01314aa89b0da7a023815dac
+  Correlation Id:          4bd187f94226296210d9b5bca95a37a5
+  External correlation Id: 7411004925854989109
+  Machine Id:              38a2xp5jTUHMWTaAZnWFeybQ1e8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-oliau" (connect: 0.00s, validation: 0.01s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau-notifications" at "2026-10-07T14:21:45.7763992Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/PyroForge-Multiplayer
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+57539
+-parentPid
+14084
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+b8243a85-20db-47c4-9bdd-be03a1ea8f1c
+-analyticsLocalProjectId
+ebafb5eec17d1b741baed64eca372ccf
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+8c1a9f4e1690790c866bd886746040db216e6665
+-cbmMachineId
+38a2xp5jTUHMWTaAZnWFeybQ1e8=
+-licensingIpc
+LicenseClient-oliau
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/PyroForge-Multiplayer
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/PyroForge-Multiplayer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [35460]  Target information:
+
+Player connection [35460]  * "[IP] 10.50.8.65 [Port] 0 [Flags] 2 [Guid] 2451692872 [EditorId] 2451692872 [Version] 1048832 [Id] WindowsEditor(7,OLI-SCHOOL-LAP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35460] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35460] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 3574297690481-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 56.58 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 5.51 ms.
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/PyroForge-Multiplayer/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon 780M Graphics (ID=0x1900)
+    Vendor:          ATI
+    VRAM:            14165 MB
+    App VRAM Budget: 17399 MB
+    Driver:          32.0.22024.19001
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004327 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1707ms
+	BeginReloadAssembly (164ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (806ms)
+		LoadAssemblies (159ms)
+		AnalyzeDomain (713ms)
+			TypeCache.Refresh (711ms)
+				TypeCache.ScanAssembly (695ms)
+	FinalizeReload (609ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (307ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 25.16 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 29.33 ms, found 11 plugins.
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+Asset Pipeline Refresh (id=ff625029e57e91844a6fb942cbccccbc): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+Asset Pipeline Refresh (id=9a6c2b161f08b3b4fbb88fc9deda7609): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.068 seconds
+Domain Reload Profiling: 3848ms
+	BeginReloadAssembly (437ms)
+		DisableScriptedObjects (39ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (189ms)
+	LoadAllAssembliesAndSetupDomain (1113ms)
+		LoadAssemblies (653ms)
+		AnalyzeDomain (427ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (231ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2069ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (963ms)
+			ProcessInitializeOnLoadMethodAttributes (699ms)
+			AfterProcessingInitializeOnLoad (16ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 21.71 ms, found 11 plugins.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 9687 unused Assets / (11.3 MB). Loaded Objects now: 10738.
+Memory consumption went from 414.8 MB to 403.4 MB.
+Total: 34.275200 ms (FindLiveObjects: 1.410000 ms CreateObjectMapping: 4.306600 ms MarkObjects: 19.918800 ms  DeleteObjects: 8.636200 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 29.84 ms, found 11 plugins.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (3.0 MB). Loaded Objects now: 10738.
+Memory consumption went from 404.0 MB to 401.1 MB.
+Total: 25.988900 ms (FindLiveObjects: 0.827200 ms CreateObjectMapping: 2.001300 ms MarkObjects: 22.060500 ms  DeleteObjects: 1.098000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 21.61 ms, found 11 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.766 seconds
+Domain Reload Profiling: 2943ms
+	BeginReloadAssembly (364ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (637ms)
+		LoadAssemblies (528ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1767ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (793ms)
+			ProcessInitializeOnLoadMethodAttributes (406ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 15.93 ms, found 11 plugins.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9814 unused Assets / (7.5 MB). Loaded Objects now: 10782.
+Memory consumption went from 464.6 MB to 457.1 MB.
+Total: 26.726700 ms (FindLiveObjects: 1.236400 ms CreateObjectMapping: 3.333200 ms MarkObjects: 17.147800 ms  DeleteObjects: 5.007600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.5063765Z
+  Time since last request: 1716727.25937379989773 seconds.
+  importAddress: GUID: e98a56c94877757469ada537eaa187b8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e98a56c94877757469ada537eaa187b8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e98a56c94877757469ada537eaa187b8' -> (Import Result ID: '85f79191fa5a2db00ea295931a0ad6a6') in 0.069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f18a2f45bd9906bda016c5839636ad2 DependenciesID=4738a692f1f3b9298392246290d15147 StaticDependenciesID=75ad97b8b29bb36869c2ca100f0725b9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.650951Z
+  Time since last request: 0.0588114 seconds.
+  importAddress: GUID: 066ef4d1c21ac79489c76d4cfb65aa80 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_03.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 066ef4d1c21ac79489c76d4cfb65aa80 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_03.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+[Licensing::Client] Successfully resolved entitlement details
+Imported 'GUID: 066ef4d1c21ac79489c76d4cfb65aa80' -> (Import Result ID: '1cab2a27fe23d5a6844821aea38c87d1') in 0.071 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c46d6c470f87f435175812cde03f95bd DependenciesID=91cff608fda777c8bde4b6fb2e4cbb02 StaticDependenciesID=f847921ab0942ee5aeb6dd1beb7ea9a6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.7414416Z
+  Time since last request: 0.0005036 seconds.
+  importAddress: GUID: dad8160bf16016f4393e18c82f7b4fed - Path: Assets/Magic VFX - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dad8160bf16016f4393e18c82f7b4fed - Path: Assets/Magic VFX - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dad8160bf16016f4393e18c82f7b4fed' -> (Import Result ID: 'fa2e58806d74b035917eb41abee2b7f4') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e1deab952fb66e19dda9a001c1431b3 DependenciesID=b99fb92116942cdcc051f71f2d51b600 StaticDependenciesID=addc2cdeeef318c2bb6d0b25fbe13839 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.7652423Z
+  Time since last request: 0.0005993 seconds.
+  importAddress: GUID: eaffc20b940751240bb1cde78f2b8aee - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: eaffc20b940751240bb1cde78f2b8aee - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: eaffc20b940751240bb1cde78f2b8aee' -> (Import Result ID: '83fd767d1d7b03b80c02fe8bdaa22252') in 0.035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce3aff7c98fb4d1b1c05d679a9f7c8b3 DependenciesID=f9f5f0dcc5dad0a8e504476239ec9e1f StaticDependenciesID=70e1477b7ef05f6ca61f797cef703575 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.8174255Z
+  Time since last request: 0.0005181 seconds.
+  importAddress: GUID: 098cc92c8cf6f624c98fd3d2f8540ac7 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 098cc92c8cf6f624c98fd3d2f8540ac7 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 098cc92c8cf6f624c98fd3d2f8540ac7' -> (Import Result ID: 'a54a4107cf1b72fc8116a55771f48efb') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d6392f1ee48a7e12d65f6d8bc5604e98 DependenciesID=6dc4d95de4d04388a71bc3f6acb0bacd StaticDependenciesID=cd98be9d1a588a6b75d71ec5dd258830 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.8443031Z
+  Time since last request: 0.00054 seconds.
+  importAddress: GUID: 30ed72b2cf91f8049ac5db3809266372 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_03.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 30ed72b2cf91f8049ac5db3809266372 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_03.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 30ed72b2cf91f8049ac5db3809266372' -> (Import Result ID: 'c59877368f21ce2d9f36d1a7f59f4a43') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=776eca792b95e7bad10bd1611aac55ac DependenciesID=6661f178f17d8e87688a164560f973fe StaticDependenciesID=36dbc43f314e1d5b8a1779673fab2682 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.8734989Z
+  Time since last request: 0.000403 seconds.
+  importAddress: GUID: d22496696b1e9d040a563e46b9bdc8af - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02add.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d22496696b1e9d040a563e46b9bdc8af - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02add.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d22496696b1e9d040a563e46b9bdc8af' -> (Import Result ID: '399d916621de3e1efb2b406283110866') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a46e06e9c10a1190ba967952c9a87cf DependenciesID=e2fe33ae998db2e221e37dc5503d11d9 StaticDependenciesID=d7f3f93ded73c89decd08d1a94614d70 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.9035306Z
+  Time since last request: 0.0002083 seconds.
+  importAddress: GUID: 8d589409a2efb794580496b4bf3c2cb8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE) - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8d589409a2efb794580496b4bf3c2cb8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE) - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8d589409a2efb794580496b4bf3c2cb8' -> (Import Result ID: '7397b7cfded9eab8abb0693c09ade621') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c8d9771c5c7818885b55f52a1208724a DependenciesID=a294032f34ebaad3accef47ccf637287 StaticDependenciesID=edb3540e8a62336063109f6574443c8c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.9275177Z
+  Time since last request: 0.000508 seconds.
+  importAddress: GUID: 8b42a8c43a646fc4a80707b22e312241 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_03.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8b42a8c43a646fc4a80707b22e312241 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_03.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8b42a8c43a646fc4a80707b22e312241' -> (Import Result ID: 'f252c72c545efca101b975531c000659') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc9462a87fb6f4712baa74bcb7a77687 DependenciesID=3ac3d2fbb7f3e4741f829344a8630192 StaticDependenciesID=9258281b35ef1f035141c684fdeeede6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.9553501Z
+  Time since last request: 0.0006093 seconds.
+  importAddress: GUID: 7938db22ecb65c6438c7ec39514a2f9e - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SmokeA1_SphereM.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7938db22ecb65c6438c7ec39514a2f9e - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SmokeA1_SphereM.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7938db22ecb65c6438c7ec39514a2f9e' -> (Import Result ID: '5da9759848907b978c14b92df9bdceca') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17ec71cdc972c74b331f2b19f6a4259e DependenciesID=0430bcfba8a7f7d6af875a4e96b6411f StaticDependenciesID=842179e25042968730d9689275079777 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:47.9898285Z
+  Time since last request: 0.0005778 seconds.
+  importAddress: GUID: 575c8968e527f994f9aec592fe3278b4 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/FlakesA1_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 575c8968e527f994f9aec592fe3278b4 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/FlakesA1_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 575c8968e527f994f9aec592fe3278b4' -> (Import Result ID: '018a4641be1b27525a3d5d57b398912a') in 0.076 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37aa3da391e82ddc56de46288decdac4 DependenciesID=ec89e93060f9ebe31dbffb2357b34df8 StaticDependenciesID=4129bcde5e6e159ad9caf6e7603a83da 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.0832553Z
+  Time since last request: 0.0004303 seconds.
+  importAddress: GUID: cf09c826719f5934e9ef6d1a92da187a - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Sounds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cf09c826719f5934e9ef6d1a92da187a - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Sounds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cf09c826719f5934e9ef6d1a92da187a' -> (Import Result ID: '8c19627935c731d13a9f50cd06061cb3') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=452e47b2d527f80ba6c82373bb172f97 DependenciesID=8a5f24168e1384816ca088fac01e9371 StaticDependenciesID=7e64241aec03d520c8def29bdba2de40 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.1086593Z
+  Time since last request: 0.0006197 seconds.
+  importAddress: GUID: c442edba9f2ee6f4e8473e40f9c531e4 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c442edba9f2ee6f4e8473e40f9c531e4 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c442edba9f2ee6f4e8473e40f9c531e4' -> (Import Result ID: 'a228a349eb77f68fbf31f0da3a4c595b') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38d8eac0b43ff73c5d2d214d4d5ba550 DependenciesID=095bd6593242bf86a57ddeb429c4751c StaticDependenciesID=2a02ce8fa70272b9e5b40ec87f3e4144 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.1451341Z
+  Time since last request: 0.0004798 seconds.
+  importAddress: GUID: f9638eca37961f447b9538e7878f4380 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_05.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f9638eca37961f447b9538e7878f4380 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_05.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f9638eca37961f447b9538e7878f4380' -> (Import Result ID: 'd918dd53e9ce1bd9a7d1a4fae4578379') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6cb00581b7bece9ed9372f86178cee3 DependenciesID=38311ff69476b644e5421044a510f93c StaticDependenciesID=1b4ba049b64d3da2d1e2a62bbdc0f1f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.1898668Z
+  Time since last request: 0.004332 seconds.
+  importAddress: GUID: dd81ec89125329b459233f9b5f8959c1 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_04.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd81ec89125329b459233f9b5f8959c1 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_04.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd81ec89125329b459233f9b5f8959c1' -> (Import Result ID: 'aa204a6d5c06769c47ab84763a43c42d') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3bf9e28f9d36a2346664cd6f4b137de DependenciesID=0ecb3b5a33dc25061fb420c161a7deda StaticDependenciesID=b04b03e0adc38be97a86aa4e98404738 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.2225395Z
+  Time since last request: 0.0005206 seconds.
+  importAddress: GUID: b76110ca6926ad54cb7e1785050e8da9 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_04.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b76110ca6926ad54cb7e1785050e8da9 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_04.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b76110ca6926ad54cb7e1785050e8da9' -> (Import Result ID: 'a134472dbd9b1289af92d48942d8215d') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efaad7eeb84b140d39f8a99b21ec9a92 DependenciesID=c71ec3ff3fb02ff00f2355a9ae12d5d6 StaticDependenciesID=2ec453fdb6cae60b319317a69da96c0d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.2566613Z
+  Time since last request: 0.0005633 seconds.
+  importAddress: GUID: d2ddaff8c3908ab40be0b0ed0f4e4f69 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d2ddaff8c3908ab40be0b0ed0f4e4f69 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d2ddaff8c3908ab40be0b0ed0f4e4f69' -> (Import Result ID: '5eec0df0496fe480327c1409849ed311') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d013a7ff62107a6db5f5d87ba018c493 DependenciesID=29be96fd674a068fdbbbec0caa1602af StaticDependenciesID=df758e1ce73671797341bd282ec86ef8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.2888486Z
+  Time since last request: 0.0004188 seconds.
+  importAddress: GUID: 31fdf7f3c99a6ed488e5424916d3ae90 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Scene - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 31fdf7f3c99a6ed488e5424916d3ae90 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Scene - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 31fdf7f3c99a6ed488e5424916d3ae90' -> (Import Result ID: '0f1f3f7b50e98588d4c3e9625f0e9f1e') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3260cefbc40bf19a521dfb949dade364 DependenciesID=a20d7188ea8f1ecddeea272e6c9e091b StaticDependenciesID=b8b12b207f5d8431a0c81158702f809f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.3162495Z
+  Time since last request: 0.0006058 seconds.
+  importAddress: GUID: 9f339333f15077a4fa25b5ea456f5b93 - Path: Assets/Scenes/JeuDeQuilles.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9f339333f15077a4fa25b5ea456f5b93 - Path: Assets/Scenes/JeuDeQuilles.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9f339333f15077a4fa25b5ea456f5b93' -> (Import Result ID: '153e535b611a5e404674b3a2a87fd582') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e9d433f683962480468067775c3fdcf DependenciesID=2499c539dab7fbc375b18aad6fb992f4 StaticDependenciesID=a90f69a24aea69781725fc492a6e30d2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.3484015Z
+  Time since last request: 0.0005097 seconds.
+  importAddress: GUID: c63d70920d962314db7dc6d5c99e53a7 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Sounds/Magic_Glow_01.wav - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c63d70920d962314db7dc6d5c99e53a7 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Sounds/Magic_Glow_01.wav - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c63d70920d962314db7dc6d5c99e53a7' -> (Import Result ID: '98b7af6a84a32ad988c6762a0acf920d') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef39dc89d441ff09093d9ad42b86d9b9 DependenciesID=3af28234f60857afcfb37c432efd4a5b StaticDependenciesID=67498f1854a704fe48ca210e19611f39 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.4043847Z
+  Time since last request: 0.0006591 seconds.
+  importAddress: GUID: 3d2abae981105e5449a12d1d261a9a38 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_06.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3d2abae981105e5449a12d1d261a9a38 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_06.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3d2abae981105e5449a12d1d261a9a38' -> (Import Result ID: '98ca433a1076fe05ceedc136081f69d8') in 0.060 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ea7a68f581167d56da6c3e33b0905bb DependenciesID=f91e63c233af6d748c754176912be60c StaticDependenciesID=e8f49701bb09f3daca6a912aa79ad2f9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.4806779Z
+  Time since last request: 0.0004777 seconds.
+  importAddress: GUID: 42af2cf083b70ea44b1cdc0a139f2388 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/FrostFlake_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 42af2cf083b70ea44b1cdc0a139f2388 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/FrostFlake_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 42af2cf083b70ea44b1cdc0a139f2388' -> (Import Result ID: '970734226fbed29b3d094552597e0f27') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=318b15866f1d1538b09aa315053a6797 DependenciesID=569338af8d790b27b1548ddb68fdfe67 StaticDependenciesID=2e360c73e11992aa83c351495d9ea35b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.5121746Z
+  Time since last request: 0.0004507 seconds.
+  importAddress: GUID: 21e040e4377b98148a0a2877e20f7d3f - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_04.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 21e040e4377b98148a0a2877e20f7d3f - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_04.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 21e040e4377b98148a0a2877e20f7d3f' -> (Import Result ID: '78c837921eef91c63df6daf127ca2608') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52c593061998bb5b7c8c7a0d7856d260 DependenciesID=80bc902e3ac264902aa1b8cb2231570d StaticDependenciesID=6f8756028f558b199e2dafa727df35d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.5414055Z
+  Time since last request: 0.0006949 seconds.
+  importAddress: GUID: 0c2e1813622a696478812e4c9bc2a74e - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02mobile.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0c2e1813622a696478812e4c9bc2a74e - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02mobile.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0c2e1813622a696478812e4c9bc2a74e' -> (Import Result ID: '016da1bbfcf72f0ad8a217be8c6f726a') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef1c77d21ef9be93dc527e5161c0e6c5 DependenciesID=ef6b1e9cbc7559c07b54d73c776c786a StaticDependenciesID=da028aebc83badd036365ce141ca6885 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.5727841Z
+  Time since last request: 0.0004046 seconds.
+  importAddress: GUID: a79f5eead5d7af84890da0dc31c19a76 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/FlakesA1_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a79f5eead5d7af84890da0dc31c19a76 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/FlakesA1_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a79f5eead5d7af84890da0dc31c19a76' -> (Import Result ID: '1cd2d0c528b12b3d0abe1051da6a9b3c') in 0.076 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcb8e807368f803c3fa5db043b3addc3 DependenciesID=51b3af0f928825c09fe9961b147385bd StaticDependenciesID=b5d16f5812fd33eb93cee41efa281cc1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.6662655Z
+  Time since last request: 0.000596 seconds.
+  importAddress: GUID: f139620bfcc971845a14fff68bb11058 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f139620bfcc971845a14fff68bb11058 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f139620bfcc971845a14fff68bb11058' -> (Import Result ID: '2a4ce2c97699108a3e9816ef26e8eb14') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f36016fe7ce1172bec2fdfbebe9c2f63 DependenciesID=150456772ef8eeeaafbc74e24bdaa08f StaticDependenciesID=ed62580e0c3cb9da94b64ba23274431d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.7003728Z
+  Time since last request: 0.0010426 seconds.
+  importAddress: GUID: 889dd67908ff48640a817f0b0074814e - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Prefabs/Ef_IceMagicGlowFree01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 889dd67908ff48640a817f0b0074814e - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Prefabs/Ef_IceMagicGlowFree01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 889dd67908ff48640a817f0b0074814e' -> (Import Result ID: 'ea0a2e6cd9dd0488d691e171a1cade20') in 0.146 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a018e22e3f15852501373f653f6aabc DependenciesID=4f3c3f0425b1aae5cd44e6b9d5c545ce StaticDependenciesID=5755575ded765c06583d19fc26c5caed 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.8669269Z
+  Time since last request: 0.0000339 seconds.
+  importAddress: GUID: 27e13b5b03cae014997cd804e937f846 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Scene/Scene_Demo_01.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 27e13b5b03cae014997cd804e937f846 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Scene/Scene_Demo_01.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 27e13b5b03cae014997cd804e937f846' -> (Import Result ID: '5379f7b5e1adf6a337d48ec8fe2ee16f') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=132ab1c44a715ceab1cbb99844afa110 DependenciesID=9f19b0056d0b0eb76679e74826c122ef StaticDependenciesID=fc83c48e0c44966cda6f27c8eb930842 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.9160803Z
+  Time since last request: 0.0007083 seconds.
+  importAddress: GUID: daf2494b93f9b704993cda218b0aa842 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_04.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: daf2494b93f9b704993cda218b0aa842 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_04.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: daf2494b93f9b704993cda218b0aa842' -> (Import Result ID: '166c14cef156a35b12219759b37c1d73') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eaa3f008b0612a50ef7d4b77c07811bf DependenciesID=1cfafca582cf3ef688a96c2323e36a05 StaticDependenciesID=24f20960d97fd5b600a8b3995231e1f3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.9478795Z
+  Time since last request: 0.0005837 seconds.
+  importAddress: GUID: 32775f31087289241be115a4221883f7 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 32775f31087289241be115a4221883f7 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 32775f31087289241be115a4221883f7' -> (Import Result ID: '4002b3f0d30211b54a704d2967ad1df3') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08c7b5c1aa341a202e4171757e9a3115 DependenciesID=f22e0f58431b6659ef4899100b516f83 StaticDependenciesID=74ea1105e8b9833489adb9f4a119824b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:48.9987239Z
+  Time since last request: 0.000695 seconds.
+  importAddress: GUID: 0c5a6f809c098af45968d9704b45f6f6 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_06.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0c5a6f809c098af45968d9704b45f6f6 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_06.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0c5a6f809c098af45968d9704b45f6f6' -> (Import Result ID: '628e6a066b11b6f74bce8812d99e748f') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6fdcd2eb57b9542115c29d0beda37c4e DependenciesID=b27eb528fd39f55b080e525dbcdf725a StaticDependenciesID=58dbe16d45896a56d554f0f49c78376d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:49.0393534Z
+  Time since last request: 0.000521 seconds.
+  importAddress: GUID: ea87620a7228b7e45bc96fc818f28fe8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ea87620a7228b7e45bc96fc818f28fe8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ea87620a7228b7e45bc96fc818f28fe8' -> (Import Result ID: '960ec400647c4d24b9fb0d880e4beeee') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b2014674d14547e65da005eb8fea5c1 DependenciesID=a69c5d638938292e75d5651c2e0c65bb StaticDependenciesID=dc0f5f0c131fb5a1206e927ef1e76cfd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:49.0797096Z
+  Time since last request: 0.0004185 seconds.
+  importAddress: GUID: 1990654acd50aba41a14306279e3b9f6 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SmokeA1_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1990654acd50aba41a14306279e3b9f6 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SmokeA1_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1990654acd50aba41a14306279e3b9f6' -> (Import Result ID: 'd1812b22688d013b73f5fb574c00c40c') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48b61413482e541713f808a016508f21 DependenciesID=254d2cb6808cfc69cc823065e5eff1bd StaticDependenciesID=0a7dc111b38163d1cfc797645744c170 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:49.1335039Z
+  Time since last request: 0.0005734 seconds.
+  importAddress: GUID: 2d1fda059842de440837ecd5d6236fa7 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/PlaneMaterial 1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2d1fda059842de440837ecd5d6236fa7 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/PlaneMaterial 1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2d1fda059842de440837ecd5d6236fa7' -> (Import Result ID: 'd56fef2a5e81bf241c9a6397fd83934a') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=986705b66deb6d54beaa94d30166cf6a DependenciesID=cbd96870b11f499771ea75b77642bb0e StaticDependenciesID=2c393d9e3375ba3a68a1a6c017d60546 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:49.1725927Z
+  Time since last request: 0.0005635 seconds.
+  importAddress: GUID: 9f1e3d00aa74453408c3f82b25a90ecf - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_02.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9f1e3d00aa74453408c3f82b25a90ecf - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SnowFlakes_02.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9f1e3d00aa74453408c3f82b25a90ecf' -> (Import Result ID: 'ff1f3883e63b03a6b37d98f0070f12f6') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b376c5350b7ad0c5ea8d9491b8ce39b DependenciesID=13e3ffea954329e74d29574a105d4c12 StaticDependenciesID=b4872cff9b3261239ad9ed28f98362f1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:49.2112277Z
+  Time since last request: 0.0005687 seconds.
+  importAddress: GUID: 08d4d2cbfdbdc9c46a4245c0b581d3a4 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SmokeA1_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 08d4d2cbfdbdc9c46a4245c0b581d3a4 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SmokeA1_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 08d4d2cbfdbdc9c46a4245c0b581d3a4' -> (Import Result ID: '7aede5b887e107e21850ac63bda77e8e') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3701b6e12123848efa68f0e50416987 DependenciesID=4fa0d75e57ee3f204efa6c9b1ee39669 StaticDependenciesID=278b26d6a6f9b2d0b801aeb19df62439 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:22:49.251447Z
+  Time since last request: 0.0006414 seconds.
+  importAddress: GUID: 02f4fedc16749974e8c5e5550ada1bb0 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/FrostFlake_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 02f4fedc16749974e8c5e5550ada1bb0 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/FrostFlake_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 02f4fedc16749974e8c5e5550ada1bb0' -> (Import Result ID: 'aca8eac49ff2da847d4bfa7c03b604d0') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d05066685d20469f917ef700c923ce35 DependenciesID=a92f7fc3c4ec42a1c94ef70cb66fe1ce StaticDependenciesID=f8ead2dbc2a0628618b2225bb4e3c35e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 15.23 ms, found 11 plugins.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (3.1 MB). Loaded Objects now: 10786.
+Memory consumption went from 484.4 MB to 481.4 MB.
+Total: 16.627700 ms (FindLiveObjects: 0.588000 ms CreateObjectMapping: 0.991300 ms MarkObjects: 14.168800 ms  DeleteObjects: 0.878600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2359296
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:32.3339746Z
+  Time since last request: 43.0472894 seconds.
+  importAddress: GUID: 9f339333f15077a4fa25b5ea456f5b93 - Path: Assets/Scenes/JeuDeQuilles.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9f339333f15077a4fa25b5ea456f5b93 - Path: Assets/Scenes/JeuDeQuilles.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9f339333f15077a4fa25b5ea456f5b93' -> (Import Result ID: 'd3a288b1add6200ff7c37ddb6ee40f95') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a44a02e52c30f013fdcf10df4b5fb794 DependenciesID=c8cd36c92b57f348b4e9282507cb47c4 StaticDependenciesID=c1ac6aa4006db78a4317eab27e748553 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:32.3617413Z
+  Time since last request: 0.0009571 seconds.
+  importAddress: GUID: 3d2abae981105e5449a12d1d261a9a38 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_06.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3d2abae981105e5449a12d1d261a9a38 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_06.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3d2abae981105e5449a12d1d261a9a38' -> (Import Result ID: '7e0be74769a53c3a8782964ae300f7d0') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d71c40d9fab75e83d503908fbd20635b DependenciesID=fee5e659d88d8532ebee625674d54a4c StaticDependenciesID=cea313c03fde1081d872fa229da46cf7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:32.3954237Z
+  Time since last request: 0.000496 seconds.
+  importAddress: GUID: ea87620a7228b7e45bc96fc818f28fe8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ea87620a7228b7e45bc96fc818f28fe8 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ea87620a7228b7e45bc96fc818f28fe8' -> (Import Result ID: '81fc9e5b1c9375d426f69162a9c634bb') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14b820f969b9081ad8ea2d66e28c562f DependenciesID=7e6e85e84508befdb4dc44d65c9d2fc4 StaticDependenciesID=99c80f54ffa63889edbea6a14290a5e7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:47.5439517Z
+  Time since last request: 15.1044334 seconds.
+  importAddress: GUID: 08d4d2cbfdbdc9c46a4245c0b581d3a4 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SmokeA1_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 08d4d2cbfdbdc9c46a4245c0b581d3a4 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/SmokeA1_01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 08d4d2cbfdbdc9c46a4245c0b581d3a4' -> (Import Result ID: '8b259f8523dd2eeb0e76efbaf1db4c75') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ef9db9c6b29e300e3acd36ae61a9d5a DependenciesID=3d0947e6383e8f1c4f2092b7168922bc StaticDependenciesID=ea6092812e51312798c43afc61955d2f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:53.65514Z
+  Time since last request: 6.0836814 seconds.
+  importAddress: GUID: 7ab6f3b0fd1a6ba41b2a47766c16613f - Path: Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/PushButton.fbx - Importer: PreviewImporter
+Importing 'GUID: 7ab6f3b0fd1a6ba41b2a47766c16613f - Path: Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/PushButton.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7ab6f3b0fd1a6ba41b2a47766c16613f' -> (Import Result ID: '7e3ab57ce58054809262aba39c0ba6e5') in 0.498 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85b2f4f4cb6a30f8cbb676f4e71bdd9d DependenciesID=8d836cf55509a33a063772fc0ce7a6b9 StaticDependenciesID=ebcf671c294b6a8f1109fee1ce1fc9fb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:54.1711116Z
+  Time since last request: 0.0000394 seconds.
+  importAddress: GUID: 00bdefcc748564f5281f478b37e5adc7 - Path: Assets/VRMPAssets/Meshes/Spatial Panel Manipulator Model.fbx - Importer: PreviewImporter
+Importing 'GUID: 00bdefcc748564f5281f478b37e5adc7 - Path: Assets/VRMPAssets/Meshes/Spatial Panel Manipulator Model.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 00bdefcc748564f5281f478b37e5adc7' -> (Import Result ID: 'c982006300e3eabf85d48e868438f6fc') in 0.050 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44bfc4d781a75c61acdd6f3fe37fce42 DependenciesID=a5015525dd7ccceed1a691a0101b9882 StaticDependenciesID=e2b98fda89843c1804b3b8290f6e1574 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:54.2398309Z
+  Time since last request: 0.0008704 seconds.
+  importAddress: GUID: c6984c48aed9a154294088f4265d8478 - Path: Assets/Samples/XR Interaction Toolkit/3.5.1/Spatial Keyboard/Models/Spatial Panel Manipulator Model.fbx - Importer: PreviewImporter
+Importing 'GUID: c6984c48aed9a154294088f4265d8478 - Path: Assets/Samples/XR Interaction Toolkit/3.5.1/Spatial Keyboard/Models/Spatial Panel Manipulator Model.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c6984c48aed9a154294088f4265d8478' -> (Import Result ID: '67be98249b590ba4e31a49d23167cc8d') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31f1c543d471ec9fcbe5ad4b2e17c417 DependenciesID=6a43312e194437db08d956d8d177949c StaticDependenciesID=7324536a432a086e65fa575cc6e912a4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:23:54.289762Z
+  Time since last request: 0.0008486 seconds.
+  importAddress: GUID: 7a723ecfb519e7945a7fa67bed0a57f1 - Path: Assets/VRMPAssets/Materials/AnchorMaterials/Anchor Blue Glow.mat - Importer: PreviewImporter
+Importing 'GUID: 7a723ecfb519e7945a7fa67bed0a57f1 - Path: Assets/VRMPAssets/Materials/AnchorMaterials/Anchor Blue Glow.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7a723ecfb519e7945a7fa67bed0a57f1' -> (Import Result ID: '76715fef336fbcb4578df4dd794e38ea') in 0.212 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64125525f49644dde4456addba17cd25 DependenciesID=92111242a43b850497ea27f732b55a84 StaticDependenciesID=ebd0bd21e35d34e57b1f78d1068241c0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:24:09.7504197Z
+  Time since last request: 15.2310033 seconds.
+  importAddress: GUID: 3d2abae981105e5449a12d1d261a9a38 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_06.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3d2abae981105e5449a12d1d261a9a38 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_06.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3d2abae981105e5449a12d1d261a9a38' -> (Import Result ID: 'bdc78aedfd0b2e9e30509691bd5950d8') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13255c9378221e6838b8e51326e2ac50 DependenciesID=9fac09b533e82945c5e359fcd4020183 StaticDependenciesID=7e6aee75a28463bd8a6ba43def14db72 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-07T14:24:11.225782Z
+  Time since last request: 1.4373722 seconds.
+  importAddress: GUID: 3d2abae981105e5449a12d1d261a9a38 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_06.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3d2abae981105e5449a12d1d261a9a38 - Path: Assets/Magic VFX/Magic VFX - Ice (FREE)/Models/Materials/Glow_Ice_06.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3d2abae981105e5449a12d1d261a9a38' -> (Import Result ID: '274ccc9e40f5a96272293ce13218ecac') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35e76b574c85c4a62c21df163b063638 DependenciesID=1d2d084433d50580a34b1e11ffabb102 StaticDependenciesID=071d17de5a6af6cbdcf5f3dbc3b85f10 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

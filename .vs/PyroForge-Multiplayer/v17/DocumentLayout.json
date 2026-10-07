@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\PyroForge-Multiplayer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98390724-5C16-5875-DA1A-186906D6A7B5}|Assembly-CSharp.csproj|C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\PyroForge-Multiplayer\\assets\\scripts\\newvitessefeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98390724-5C16-5875-DA1A-186906D6A7B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newvitessefeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98390724-5C16-5875-DA1A-186906D6A7B5}|Assembly-CSharp.csproj|c:\\users\\oliau\\desktop\\tim 2026\\2-automne\\5-experimentationjeu\\projets\\pyroforge-multiplayer\\assets\\scripts\\controlefeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98390724-5C16-5875-DA1A-186906D6A7B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controlefeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "newVitesseFeu.cs",
+              "DocumentMoniker": "C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\PyroForge-Multiplayer\\Assets\\scripts\\newVitesseFeu.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\newVitesseFeu.cs",
+              "ToolTip": "C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\PyroForge-Multiplayer\\Assets\\scripts\\newVitesseFeu.cs",
+              "RelativeToolTip": "Assets\\scripts\\newVitesseFeu.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDkAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T14:14:41.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "controleFeu.cs",
+              "DocumentMoniker": "C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\PyroForge-Multiplayer\\Assets\\scripts\\controleFeu.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\controleFeu.cs",
+              "ToolTip": "C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\PyroForge-Multiplayer\\Assets\\scripts\\controleFeu.cs",
+              "RelativeToolTip": "Assets\\scripts\\controleFeu.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAzwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T13:39:31.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
